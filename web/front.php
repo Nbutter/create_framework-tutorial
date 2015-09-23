@@ -15,7 +15,9 @@ $map = array(
 
 $path = $request->getPathInfo(); // this is where the magic happens
 if (isset($map[$path])) {
-	require $map[$path];  
+	ob_start();
+	include $map[$path];
+	$response->setContent(ob_get_clean());  
 } else {
 	$response->setStatusCode(404);
 	$response->setContent('Not Found');
