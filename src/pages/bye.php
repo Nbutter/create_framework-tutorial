@@ -1,3 +1,3 @@
-<?php
+<!-- this is now an html template  -->
 
-$response->setContent('Goodbye!');
+Goodbye
