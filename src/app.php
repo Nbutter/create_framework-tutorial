@@ -22,7 +22,5 @@ $routes->add('polo', new Routing\Route('/marco', array(
 		return render_template($request);
 	})));
 
-//$routes->add('polo', new Routing\Route('/marco'));
-
 
 return $routes;
