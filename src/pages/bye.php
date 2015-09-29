@@ -1,3 +1,3 @@
-<!-- this is now an html template  -->
+<!-- this is an html template  -->
 
 Goodbye
